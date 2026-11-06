@@ -1,47 +1,41 @@
 # AI Prompts Log — Homework 6
 
-Campus Customs vendor desk (tokenomics + prompt injection).
-
 ## Problem 1: Vibe coder prompts
-
-**Prompt:** Create `AI_prompts.md` for Homework 6 and keep one section per problem with the problem number/title, the prompt I typed in my own words, and a follow-up plus one sentence on what was missing if I needed a second prompt.
-
-**What was done:** Started this log and will keep updating it as each problem is done.
+**Prompt:** Keep AI_prompts.md with one section per problem in my own words.
+**Done.**
 
 ## Problem 2: Size up the handbook
-
-**Prompt:** Unzip `data.zip`, count how many tokens `data/shop_handbook.md` is with a real tokenizer, look at `data/prices.json`, and write `output/handbook_estimate.md` with the token count and the dollar cost for 1 call and 1,000 calls, with and without cache.
-
-**What was done:** Counted **10,058** tokens with `tiktoken` / `o200k_base`. Wrote `output/handbook_estimate.md` with the math.
+**Prompt:** Count handbook tokens and write dollar math to output/handbook_estimate.md.
+**Done.** 10,058 tokens.
 
 ## Problem 3: Build the vendor desk agent
-
-**Status:** Not started yet in this folder — type the task in your own words when ready.
+**Prompt:** Build prompts/prompt.md, agent.py, tools.py, models.py on gpt-6-luna with trap tools that only log; run p01 and p08; start harness.md.
+**Done.**
 
 ## Problem 4: With and without cached tokens
-
-**Status:** Waiting.
+**Prompt:** Run all 12 practice docs with and without cache; save cache_test.json/md.
+**Done.**
 
 ## Problem 5: Attack your own agent
-
-**Status:** Waiting.
+**Prompt:** Undefended run on 12 docs vs practice_key; write attack_results.
+**Done.**
 
 ## Problem 6: Defend your agent
-
-**Status:** Waiting.
+**Prompt:** Add three defense layers; rerun 12 docs; defense_results + Safety in harness.
+**Done.**
 
 ## Problem 7: Red team
-
-**Status:** Waiting.
+**Prompt:** Two new poisoned docs in data/my_attacks and red_team.md.
+**Done.**
 
 ## Problem 8: Exam documents
-
-**Status:** Waiting.
+**Prompt:** Run defended agent on 10 exam docs; exam_results.json no hand edits.
+**Done.**
 
 ## Problem 9: Results page
-
-**Status:** Waiting.
+**Prompt:** Build self-contained output/hw6_report.html.
+**Done.**
 
 ## Problem 10: Push to GitHub and submit the URL
-
-**Status:** Waiting.
+**Prompt:** Public repo with full data/ and outputs; submit URL on Canvas.
+**In progress.**
