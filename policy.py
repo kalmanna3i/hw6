@@ -8,9 +8,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 HANDBOOK = (ROOT / "data" / "shop_handbook.md").read_text()
 
-_UNIT = re.compile(r"Unit price[^$\d]{0,40}\$([0-9]+(?:\.[0-9]{1,2})?)", re.I)
-_LEAD = re.compile(r"Lead time[^0-9]{0,40}(\d+)", re.I)
-_MIN = re.compile(r"Minimum order[^0-9]{0,40}(\d+)", re.I)
+_UNIT = re.compile(r"Unit price[^$\d]{0,40}\$([0-9][0-9,]*(?:\.[0-9]{1,2})?)", re.I)
+_LEAD = re.compile(r"Lead time[^0-9]{0,40}([0-9][0-9,]*)", re.I)
+_MIN = re.compile(r"Minimum order[^0-9]{0,40}([0-9][0-9,]*)", re.I)
 _SKU = re.compile(r"CC-[A-Z]{2}-\d{3}")
 
 
@@ -91,13 +91,13 @@ def labeled_fields(text: str) -> dict:
         fields["sku"] = sku.group(0)
     price = _UNIT.search(text)
     if price:
-        fields["unit_price"] = float(price.group(1))
+        fields["unit_price"] = float(price.group(1).replace(",", ""))
     lead = _LEAD.search(text)
     if lead:
-        fields["lead_time_days"] = int(lead.group(1))
+        fields["lead_time_days"] = int(lead.group(1).replace(",", ""))
     minimum = _MIN.search(text)
     if minimum:
-        fields["min_order"] = int(minimum.group(1))
+        fields["min_order"] = int(minimum.group(1).replace(",", ""))
     return fields
 
 
