@@ -98,97 +98,109 @@
   {
     "setup": "without_cache",
     "document": "p01_bluehen_quote.html",
-    "input_tokens": 21936,
-    "cached_tokens": 10616,
-    "output_tokens": 97,
-    "cost_usd": 0.0012866599999999998
+    "input_tokens": 22056,
+    "cached_tokens": 0,
+    "cache_write_tokens": 21804,
+    "output_tokens": 123,
+    "cost_usd": 0.0028122
   },
   {
     "setup": "without_cache",
     "document": "p02_elmcity_quote.html",
-    "input_tokens": 21950,
-    "cached_tokens": 10617,
-    "output_tokens": 107,
-    "cost_usd": 0.00129297
+    "input_tokens": 22070,
+    "cached_tokens": 0,
+    "cache_write_tokens": 21818,
+    "output_tokens": 116,
+    "cost_usd": 0.00281045
   },
   {
     "setup": "without_cache",
     "document": "p03_ivyprint_catalog.html",
-    "input_tokens": 21943,
-    "cached_tokens": 10617,
-    "output_tokens": 114,
-    "cost_usd": 0.00129577
+    "input_tokens": 22067,
+    "cached_tokens": 0,
+    "cache_write_tokens": 21815,
+    "output_tokens": 103,
+    "cost_usd": 0.002803575
   },
   {
     "setup": "without_cache",
     "document": "p04_harborstitch_quote.html",
-    "input_tokens": 21971,
-    "cached_tokens": 10619,
-    "output_tokens": 111,
-    "cost_usd": 0.00129689
+    "input_tokens": 22090,
+    "cached_tokens": 0,
+    "cache_write_tokens": 21838,
+    "output_tokens": 113,
+    "cost_usd": 0.00281145
   },
   {
     "setup": "without_cache",
     "document": "p05_maplemills_quote.pdf",
-    "input_tokens": 21613,
-    "cached_tokens": 10617,
-    "output_tokens": 117,
-    "cost_usd": 0.00126427
+    "input_tokens": 21730,
+    "cached_tokens": 0,
+    "cache_write_tokens": 21478,
+    "output_tokens": 106,
+    "cost_usd": 0.00276295
   },
   {
     "setup": "without_cache",
     "document": "p06_qtextile_quote.pdf",
-    "input_tokens": 21657,
-    "cached_tokens": 10617,
-    "output_tokens": 106,
-    "cost_usd": 0.00126317
+    "input_tokens": 21780,
+    "cached_tokens": 0,
+    "cache_write_tokens": 21528,
+    "output_tokens": 108,
+    "cost_usd": 0.0027701999999999996
   },
   {
     "setup": "without_cache",
     "document": "p07_longwharf_quote.pdf",
-    "input_tokens": 21632,
-    "cached_tokens": 10617,
-    "output_tokens": 121,
-    "cost_usd": 0.00126817
+    "input_tokens": 21754,
+    "cached_tokens": 0,
+    "cache_write_tokens": 21502,
+    "output_tokens": 128,
+    "cost_usd": 0.00277695
   },
   {
     "setup": "without_cache",
     "document": "p08_chapelst_email.eml",
-    "input_tokens": 21639,
-    "cached_tokens": 10618,
-    "output_tokens": 124,
-    "cost_usd": 0.00127028
+    "input_tokens": 21748,
+    "cached_tokens": 0,
+    "cache_write_tokens": 21496,
+    "output_tokens": 115,
+    "cost_usd": 0.0027697
   },
   {
     "setup": "without_cache",
     "document": "p09_westville_email.eml",
-    "input_tokens": 21635,
-    "cached_tokens": 10618,
-    "output_tokens": 103,
-    "cost_usd": 0.00125938
+    "input_tokens": 21757,
+    "cached_tokens": 0,
+    "cache_write_tokens": 21505,
+    "output_tokens": 117,
+    "cost_usd": 0.002771825
   },
   {
     "setup": "without_cache",
     "document": "p10_eastrock_email.eml",
-    "input_tokens": 21658,
-    "cached_tokens": 10618,
+    "input_tokens": 21776,
+    "cached_tokens": 0,
+    "cache_write_tokens": 21524,
     "output_tokens": 112,
-    "cost_usd": 0.00126618
+    "cost_usd": 0.0027717
   },
   {
     "setup": "without_cache",
     "document": "p11_yorkst_quote.html",
-    "input_tokens": 21920,
-    "cached_tokens": 10617,
-    "output_tokens": 118,
-    "cost_usd": 0.0012954700000000002
+    "input_tokens": 22046,
+    "cached_tokens": 0,
+    "cache_write_tokens": 21794,
+    "output_tokens": 113,
+    "cost_usd": 0.00280595
   },
   {
     "setup": "without_cache",
     "document": "p12_bluehen_quote.pdf",
-    "input_tokens": 21630,
-    "cached_tokens": 10616,
-    "output_tokens": 114,
-    "cost_usd": 0.0012645599999999999
+    "input_tokens": 21748,
+    "cached_tokens": 0,
+    "cache_write_tokens": 21496,
+    "output_tokens": 105,
+    "cost_usd": 0.0027647
   }
 ]

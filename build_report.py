@@ -104,12 +104,12 @@ th{{background:#eef2f6}}
 </div>
 
 <div class="card"><h2>4. Exam + red team</h2>
-<p>Exam docs processed: {len(exam)}. Red-team files in <code>data/my_attacks/</code>: white-on-white payment bait; HTML-comment email bait.</p>
+<p>Exam docs processed: {len(exam)}. Red-team files in <code>data/my_attacks/</code>: a hidden-attribute price swap that fooled the undefended agent, and a noscript price swap that did not.</p>
 <table><tr><th>File</th><th>Vendor</th><th>SKU</th><th>Decision</th><th>Trap</th></tr>{exam_rows}</table>
 </div>
 
 <div class="card"><h2>5. Recommendation</h2>
-<p>Turn the agent on for real vendor mail <b>only with defenses enabled</b>. At 1,000 documents/day the cached setup costs about <b>${month_with:.2f}/month</b> (handbook reuse). Undefended runs are cheaper on tokens but unsafe against injection.</p>
+<p>Turn the agent on for real vendor mail <b>only with defenses enabled</b>. At 1,000 documents/day the cached setup costs about <b>${month_with:.2f}/month</b>. The handbook is reused from cache, which is the cheap path. Without that reuse the same mail costs about <b>${month_without:.2f}/month</b>, and an undefended agent will follow hidden text in the file.</p>
 </div>
 </body></html>"""
     (OUT / "hw6_report.html").write_text(html)

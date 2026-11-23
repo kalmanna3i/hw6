@@ -4,62 +4,86 @@ from __future__ import annotations
 
 import email
 import json
+import threading
 from email import policy
 from pathlib import Path
 
-from pypdf import PdfReader
-
 try:
-    from defenses import sanitize_document_text
+    from defenses import extract_pdf_text, sanitize_document_text
 except ImportError:  # pragma: no cover
     def sanitize_document_text(text: str):
         return text, []
+
+    def extract_pdf_text(path, *, drop_hidden: bool):
+        from pypdf import PdfReader
+
+        reader = PdfReader(str(path))
+        return "\n".join((page.extract_text() or "") for page in reader.pages), []
 
 ROOT = Path(__file__).resolve().parent
 TRAP_PATH = ROOT / "output" / "trap_calls.json"
 AUDIT_BUF: list[dict] = []
 DEFENSES_ON = True
+_STATE = threading.local()
+_FILE_LOCK = threading.Lock()
 
 
 def _append_json_list(path: Path, item: dict) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    data: list = []
-    if path.exists():
-        try:
-            data = json.loads(path.read_text())
-            if not isinstance(data, list):
+    with _FILE_LOCK:
+        data: list = []
+        if path.exists():
+            try:
+                data = json.loads(path.read_text())
+                if not isinstance(data, list):
+                    data = []
+            except json.JSONDecodeError:
                 data = []
-        except json.JSONDecodeError:
-            data = []
-    data.append(item)
-    path.write_text(json.dumps(data, indent=2))
+        data.append(item)
+        path.write_text(json.dumps(data, indent=2))
+
+
+def set_defenses(on: bool) -> None:
+    _STATE.defenses = on
+
+
+def defenses_on() -> bool:
+    return getattr(_STATE, "defenses", DEFENSES_ON)
 
 
 def reset_audit() -> None:
-    AUDIT_BUF.clear()
+    _STATE.audit = []
+
+
+def audit_snapshot() -> list[dict]:
+    return list(getattr(_STATE, "audit", []))
 
 
 def record_audit(tool: str, arguments: dict, result_preview: str) -> None:
-    AUDIT_BUF.append(
-        {
-            "tool": tool,
-            "arguments": arguments,
-            "result": result_preview[:500],
-        }
-    )
+    buf = getattr(_STATE, "audit", None)
+    if buf is None:
+        buf = []
+        _STATE.audit = buf
+    item = {
+        "tool": tool,
+        "arguments": arguments,
+        "result": result_preview[:500],
+    }
+    buf.append(item)
+    AUDIT_BUF.append(item)
 
 
-def read_document(path: str) -> str:
-    """Read an HTML, PDF, or .eml vendor document and return plain text."""
+def load_document_text(path: str) -> tuple[str, list[str]]:
+    """Read a vendor file. Hidden text is removed only when defenses are on."""
     p = Path(path)
     if not p.is_absolute():
         p = (ROOT / p).resolve()
     suffix = p.suffix.lower()
+    hits: list[str] = []
     if suffix in {".html", ".htm"}:
         text = p.read_text(encoding="utf-8", errors="replace")
     elif suffix == ".pdf":
-        reader = PdfReader(str(p))
-        text = "\n".join((page.extract_text() or "") for page in reader.pages)
+        text, hits = extract_pdf_text(p, drop_hidden=defenses_on())
     elif suffix == ".eml":
         msg = email.message_from_bytes(p.read_bytes(), policy=policy.default)
         parts = [
@@ -82,14 +106,21 @@ def read_document(path: str) -> str:
         text = "\n".join(parts)
     else:
         text = p.read_text(encoding="utf-8", errors="replace")
-    if DEFENSES_ON:
-        text, hits = sanitize_document_text(text)
-        if hits:
-            record_audit(
-                "sanitize_document_text",
-                {"path": str(path), "hits": hits},
-                f"redacted {len(hits)} patterns",
-            )
+    if defenses_on():
+        text, more = sanitize_document_text(text)
+        hits.extend(more)
+    return text, hits
+
+
+def read_document(path: str) -> str:
+    """Read an HTML, PDF, or .eml vendor document and return plain text."""
+    text, hits = load_document_text(path)
+    if hits:
+        record_audit(
+            "sanitize_document_text",
+            {"path": str(path), "hits": hits},
+            f"redacted {len(hits)} patterns",
+        )
     record_audit("read_document", {"path": str(path)}, text[:200])
     return text
 

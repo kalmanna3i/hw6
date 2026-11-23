@@ -412,5 +412,1585 @@
     "output_tokens": 94,
     "cost_usd": 0.00125262,
     "setup": "exam"
+  },
+  {
+    "document": "data/practice_docs/p01_bluehen_quote.html",
+    "time": "2026-11-07T15:50:28.454265+00:00",
+    "input_tokens": 21982,
+    "cached_tokens": 10639,
+    "cache_write_tokens": 11091,
+    "output_tokens": 117,
+    "cost_usd": 0.001576465,
+    "setup": "without_cache"
+  },
+  {
+    "document": "data/practice_docs/p02_elmcity_quote.html",
+    "time": "2026-11-07T15:50:32.958034+00:00",
+    "input_tokens": 21992,
+    "cached_tokens": 10638,
+    "cache_write_tokens": 11102,
+    "output_tokens": 116,
+    "cost_usd": 0.00157733,
+    "setup": "without_cache"
+  },
+  {
+    "document": "data/practice_docs/p03_ivyprint_catalog.html",
+    "time": "2026-11-07T15:50:36.941964+00:00",
+    "input_tokens": 21989,
+    "cached_tokens": 10640,
+    "cache_write_tokens": 11097,
+    "output_tokens": 105,
+    "cost_usd": 0.0015712249999999999,
+    "setup": "without_cache"
+  },
+  {
+    "document": "data/practice_docs/p04_harborstitch_quote.html",
+    "time": "2026-11-07T15:50:40.971947+00:00",
+    "input_tokens": 22021,
+    "cached_tokens": 10644,
+    "cache_write_tokens": 11125,
+    "output_tokens": 101,
+    "cost_usd": 0.0015727649999999998,
+    "setup": "without_cache"
+  },
+  {
+    "document": "data/practice_docs/p05_maplemills_quote.pdf",
+    "time": "2026-11-07T15:50:44.501502+00:00",
+    "input_tokens": 21657,
+    "cached_tokens": 10639,
+    "cache_write_tokens": 10766,
+    "output_tokens": 104,
+    "cost_usd": 0.00152934,
+    "setup": "without_cache"
+  },
+  {
+    "document": "data/practice_docs/p06_qtextile_quote.pdf",
+    "time": "2026-11-07T15:50:48.950888+00:00",
+    "input_tokens": 21697,
+    "cached_tokens": 10637,
+    "cache_write_tokens": 10808,
+    "output_tokens": 107,
+    "cost_usd": 0.0015360699999999998,
+    "setup": "without_cache"
+  },
+  {
+    "document": "data/practice_docs/p07_longwharf_quote.pdf",
+    "time": "2026-11-07T15:50:52.317114+00:00",
+    "input_tokens": 21678,
+    "cached_tokens": 10640,
+    "cache_write_tokens": 10786,
+    "output_tokens": 121,
+    "cost_usd": 0.00154035,
+    "setup": "without_cache"
+  },
+  {
+    "document": "data/practice_docs/p08_chapelst_email.eml",
+    "time": "2026-11-07T15:50:56.323165+00:00",
+    "input_tokens": 21681,
+    "cached_tokens": 10639,
+    "cache_write_tokens": 10790,
+    "output_tokens": 102,
+    "cost_usd": 0.00153134,
+    "setup": "without_cache"
+  },
+  {
+    "document": "data/practice_docs/p09_westville_email.eml",
+    "time": "2026-11-07T15:50:59.260369+00:00",
+    "input_tokens": 21679,
+    "cached_tokens": 10640,
+    "cache_write_tokens": 10787,
+    "output_tokens": 125,
+    "cost_usd": 0.001542475,
+    "setup": "without_cache"
+  },
+  {
+    "document": "data/practice_docs/p10_eastrock_email.eml",
+    "time": "2026-11-07T15:51:02.979733+00:00",
+    "input_tokens": 21712,
+    "cached_tokens": 10645,
+    "cache_write_tokens": 10815,
+    "output_tokens": 98,
+    "cost_usd": 0.001532525,
+    "setup": "without_cache"
+  },
+  {
+    "document": "data/practice_docs/p11_yorkst_quote.html",
+    "time": "2026-11-07T15:51:06.766659+00:00",
+    "input_tokens": 21966,
+    "cached_tokens": 10640,
+    "cache_write_tokens": 11074,
+    "output_tokens": 127,
+    "cost_usd": 0.00157935,
+    "setup": "without_cache"
+  },
+  {
+    "document": "data/practice_docs/p12_bluehen_quote.pdf",
+    "time": "2026-11-07T15:51:09.642572+00:00",
+    "input_tokens": 21670,
+    "cached_tokens": 10636,
+    "cache_write_tokens": 10782,
+    "output_tokens": 101,
+    "cost_usd": 0.00152981,
+    "setup": "without_cache"
+  },
+  {
+    "document": "data/practice_docs/p01_bluehen_quote.html",
+    "time": "2026-11-07T15:51:12.233478+00:00",
+    "input_tokens": 21612,
+    "cached_tokens": 0,
+    "cache_write_tokens": 21360,
+    "output_tokens": 103,
+    "cost_usd": 0.0027467,
+    "setup": "defended"
+  },
+  {
+    "document": "data/practice_docs/p02_elmcity_quote.html",
+    "time": "2026-11-07T15:51:14.481605+00:00",
+    "input_tokens": 21586,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 216,
+    "output_tokens": 110,
+    "cost_usd": 0.0012686899999999998,
+    "setup": "defended"
+  },
+  {
+    "document": "data/practice_docs/p03_ivyprint_catalog.html",
+    "time": "2026-11-07T15:51:17.315917+00:00",
+    "input_tokens": 21587,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 217,
+    "output_tokens": 105,
+    "cost_usd": 0.001266315,
+    "setup": "defended"
+  },
+  {
+    "document": "data/practice_docs/p04_harborstitch_quote.html",
+    "time": "2026-11-07T15:51:19.912206+00:00",
+    "input_tokens": 21606,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 236,
+    "output_tokens": 103,
+    "cost_usd": 0.00126769,
+    "setup": "defended"
+  },
+  {
+    "document": "data/practice_docs/p05_maplemills_quote.pdf",
+    "time": "2026-11-07T15:51:22.023800+00:00",
+    "input_tokens": 21587,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 217,
+    "output_tokens": 102,
+    "cost_usd": 0.001264815,
+    "setup": "defended"
+  },
+  {
+    "document": "data/practice_docs/p06_qtextile_quote.pdf",
+    "time": "2026-11-07T15:51:24.278646+00:00",
+    "input_tokens": 21577,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 207,
+    "output_tokens": 104,
+    "cost_usd": 0.001264565,
+    "setup": "defended"
+  },
+  {
+    "document": "data/practice_docs/p07_longwharf_quote.pdf",
+    "time": "2026-11-07T15:51:26.448114+00:00",
+    "input_tokens": 21606,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 236,
+    "output_tokens": 110,
+    "cost_usd": 0.00127119,
+    "setup": "defended"
+  },
+  {
+    "document": "data/practice_docs/p08_chapelst_email.eml",
+    "time": "2026-11-07T15:51:27.191697+00:00",
+    "input_tokens": 21613,
+    "cached_tokens": 10605,
+    "cache_write_tokens": 197,
+    "output_tokens": 102,
+    "cost_usd": 0.001262775,
+    "setup": "defended"
+  },
+  {
+    "document": "data/practice_docs/p09_westville_email.eml",
+    "time": "2026-11-07T15:51:28.032286+00:00",
+    "input_tokens": 21609,
+    "cached_tokens": 10605,
+    "cache_write_tokens": 193,
+    "output_tokens": 103,
+    "cost_usd": 0.001262775,
+    "setup": "defended"
+  },
+  {
+    "document": "data/practice_docs/p10_eastrock_email.eml",
+    "time": "2026-11-07T15:51:30.321631+00:00",
+    "input_tokens": 21622,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 252,
+    "output_tokens": 108,
+    "cost_usd": 0.00127219,
+    "setup": "defended"
+  },
+  {
+    "document": "data/practice_docs/p11_yorkst_quote.html",
+    "time": "2026-11-07T15:51:32.475840+00:00",
+    "input_tokens": 21578,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 208,
+    "output_tokens": 101,
+    "cost_usd": 0.00126319,
+    "setup": "defended"
+  },
+  {
+    "document": "data/practice_docs/p12_bluehen_quote.pdf",
+    "time": "2026-11-07T15:51:35.043304+00:00",
+    "input_tokens": 21568,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 198,
+    "output_tokens": 119,
+    "cost_usd": 0.0012709400000000001,
+    "setup": "defended"
+  },
+  {
+    "document": "data/exam_docs/e01_quote.html",
+    "time": "2026-11-07T15:51:37.665693+00:00",
+    "input_tokens": 21565,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 195,
+    "output_tokens": 113,
+    "cost_usd": 0.001267565,
+    "setup": "exam"
+  },
+  {
+    "document": "data/exam_docs/e02_quote.html",
+    "time": "2026-11-07T15:51:40.050622+00:00",
+    "input_tokens": 21559,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 189,
+    "output_tokens": 114,
+    "cost_usd": 0.001267315,
+    "setup": "exam"
+  },
+  {
+    "document": "data/exam_docs/e03_quote.html",
+    "time": "2026-11-07T15:51:42.297047+00:00",
+    "input_tokens": 21568,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 198,
+    "output_tokens": 92,
+    "cost_usd": 0.00125744,
+    "setup": "exam"
+  },
+  {
+    "document": "data/exam_docs/e04_catalog.html",
+    "time": "2026-11-07T15:51:44.350267+00:00",
+    "input_tokens": 21558,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 188,
+    "output_tokens": 110,
+    "cost_usd": 0.00126519,
+    "setup": "exam"
+  },
+  {
+    "document": "data/exam_docs/e05_quote.pdf",
+    "time": "2026-11-07T15:51:46.347000+00:00",
+    "input_tokens": 21568,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 198,
+    "output_tokens": 106,
+    "cost_usd": 0.0012644400000000001,
+    "setup": "exam"
+  },
+  {
+    "document": "data/exam_docs/e06_quote.pdf",
+    "time": "2026-11-07T15:51:49.061291+00:00",
+    "input_tokens": 21569,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 199,
+    "output_tokens": 111,
+    "cost_usd": 0.001267065,
+    "setup": "exam"
+  },
+  {
+    "document": "data/exam_docs/e07_quote.pdf",
+    "time": "2026-11-07T15:51:52.234955+00:00",
+    "input_tokens": 21587,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 217,
+    "output_tokens": 123,
+    "cost_usd": 0.001275315,
+    "setup": "exam"
+  },
+  {
+    "document": "data/exam_docs/e08_email.eml",
+    "time": "2026-11-07T15:51:53.201931+00:00",
+    "input_tokens": 21589,
+    "cached_tokens": 10602,
+    "cache_write_tokens": 176,
+    "output_tokens": 115,
+    "cost_usd": 0.0012666200000000002,
+    "setup": "exam"
+  },
+  {
+    "document": "data/exam_docs/e09_email.eml",
+    "time": "2026-11-07T15:51:53.942142+00:00",
+    "input_tokens": 21629,
+    "cached_tokens": 10602,
+    "cache_write_tokens": 216,
+    "output_tokens": 105,
+    "cost_usd": 0.00126662,
+    "setup": "exam"
+  },
+  {
+    "document": "data/exam_docs/e10_email.eml",
+    "time": "2026-11-07T15:51:56.408932+00:00",
+    "input_tokens": 21588,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 218,
+    "output_tokens": 119,
+    "cost_usd": 0.00127344,
+    "setup": "exam"
+  },
+  {
+    "document": "data/my_attacks/a01_jsonld_deposit.html",
+    "time": "2026-11-07T15:51:59.996036+00:00",
+    "input_tokens": 21770,
+    "cached_tokens": 10604,
+    "cache_write_tokens": 355,
+    "output_tokens": 117,
+    "cost_usd": 0.0012900149999999998,
+    "setup": "red_undefended"
+  },
+  {
+    "document": "data/my_attacks/a01_jsonld_deposit.html",
+    "time": "2026-11-07T15:52:02.520742+00:00",
+    "input_tokens": 21577,
+    "cached_tokens": 10604,
+    "cache_write_tokens": 162,
+    "output_tokens": 105,
+    "cost_usd": 0.00125989,
+    "setup": "red_defended"
+  },
+  {
+    "document": "data/my_attacks/a02_template_reinstated.html",
+    "time": "2026-11-07T15:52:06.363387+00:00",
+    "input_tokens": 21757,
+    "cached_tokens": 10604,
+    "cache_write_tokens": 342,
+    "output_tokens": 103,
+    "cost_usd": 0.0012813899999999999,
+    "setup": "red_undefended"
+  },
+  {
+    "document": "data/my_attacks/a02_template_reinstated.html",
+    "time": "2026-11-07T15:52:08.310290+00:00",
+    "input_tokens": 21572,
+    "cached_tokens": 10604,
+    "cache_write_tokens": 157,
+    "output_tokens": 106,
+    "cost_usd": 0.001259765,
+    "setup": "red_defended"
+  },
+  {
+    "document": "data/practice_docs/p02_elmcity_quote.html",
+    "time": "2026-11-07T15:54:57.439364+00:00",
+    "input_tokens": 22144,
+    "cached_tokens": 10714,
+    "cache_write_tokens": 11178,
+    "output_tokens": 111,
+    "cost_usd": 0.00158509,
+    "setup": "without_cache"
+  },
+  {
+    "document": "data/practice_docs/p08_chapelst_email.eml",
+    "time": "2026-11-07T15:54:57.697969+00:00",
+    "input_tokens": 21843,
+    "cached_tokens": 10720,
+    "cache_write_tokens": 10871,
+    "output_tokens": 112,
+    "cost_usd": 0.001547275,
+    "setup": "without_cache"
+  },
+  {
+    "document": "data/practice_docs/p04_harborstitch_quote.html",
+    "time": "2026-11-07T15:54:57.732927+00:00",
+    "input_tokens": 22163,
+    "cached_tokens": 10715,
+    "cache_write_tokens": 11196,
+    "output_tokens": 108,
+    "cost_usd": 0.00158585,
+    "setup": "without_cache"
+  },
+  {
+    "document": "data/practice_docs/p03_ivyprint_catalog.html",
+    "time": "2026-11-07T15:54:58.053671+00:00",
+    "input_tokens": 22135,
+    "cached_tokens": 10713,
+    "cache_write_tokens": 11170,
+    "output_tokens": 105,
+    "cost_usd": 0.00158108,
+    "setup": "without_cache"
+  },
+  {
+    "document": "data/practice_docs/p01_bluehen_quote.html",
+    "time": "2026-11-07T15:54:58.097099+00:00",
+    "input_tokens": 22120,
+    "cached_tokens": 10708,
+    "cache_write_tokens": 11160,
+    "output_tokens": 114,
+    "cost_usd": 0.00158428,
+    "setup": "without_cache"
+  },
+  {
+    "document": "data/practice_docs/p06_qtextile_quote.pdf",
+    "time": "2026-11-07T15:54:58.487726+00:00",
+    "input_tokens": 21843,
+    "cached_tokens": 10710,
+    "cache_write_tokens": 10881,
+    "output_tokens": 117,
+    "cost_usd": 0.0015509249999999999,
+    "setup": "without_cache"
+  },
+  {
+    "document": "data/practice_docs/p07_longwharf_quote.pdf",
+    "time": "2026-11-07T15:54:58.822421+00:00",
+    "input_tokens": 21830,
+    "cached_tokens": 10716,
+    "cache_write_tokens": 10862,
+    "output_tokens": 285,
+    "cost_usd": 0.00163261,
+    "setup": "without_cache"
+  },
+  {
+    "document": "data/practice_docs/p05_maplemills_quote.pdf",
+    "time": "2026-11-07T15:55:00.183582+00:00",
+    "input_tokens": 21799,
+    "cached_tokens": 10710,
+    "cache_write_tokens": 10837,
+    "output_tokens": 119,
+    "cost_usd": 0.0015464250000000001,
+    "setup": "without_cache"
+  },
+  {
+    "document": "data/practice_docs/p09_westville_email.eml",
+    "time": "2026-11-07T15:55:00.760846+00:00",
+    "input_tokens": 21839,
+    "cached_tokens": 10720,
+    "cache_write_tokens": 10867,
+    "output_tokens": 106,
+    "cost_usd": 0.001543775,
+    "setup": "without_cache"
+  },
+  {
+    "document": "data/practice_docs/p12_bluehen_quote.pdf",
+    "time": "2026-11-07T15:55:00.762498+00:00",
+    "input_tokens": 21830,
+    "cached_tokens": 10716,
+    "cache_write_tokens": 10862,
+    "output_tokens": 110,
+    "cost_usd": 0.00154511,
+    "setup": "without_cache"
+  },
+  {
+    "document": "data/practice_docs/p10_eastrock_email.eml",
+    "time": "2026-11-07T15:55:01.678948+00:00",
+    "input_tokens": 21854,
+    "cached_tokens": 10716,
+    "cache_write_tokens": 10886,
+    "output_tokens": 114,
+    "cost_usd": 0.00155011,
+    "setup": "without_cache"
+  },
+  {
+    "document": "data/practice_docs/p11_yorkst_quote.html",
+    "time": "2026-11-07T15:55:02.207407+00:00",
+    "input_tokens": 22120,
+    "cached_tokens": 10717,
+    "cache_write_tokens": 11151,
+    "output_tokens": 120,
+    "cost_usd": 0.0015862449999999998,
+    "setup": "without_cache"
+  },
+  {
+    "document": "data/practice_docs/p07_longwharf_quote.pdf",
+    "time": "2026-11-07T15:55:02.890502+00:00",
+    "input_tokens": 21606,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 236,
+    "output_tokens": 110,
+    "cost_usd": 0.00127119,
+    "setup": "defended"
+  },
+  {
+    "document": "data/practice_docs/p05_maplemills_quote.pdf",
+    "time": "2026-11-07T15:55:02.907508+00:00",
+    "input_tokens": 21587,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 217,
+    "output_tokens": 102,
+    "cost_usd": 0.001264815,
+    "setup": "defended"
+  },
+  {
+    "document": "data/practice_docs/p01_bluehen_quote.html",
+    "time": "2026-11-07T15:55:02.914402+00:00",
+    "input_tokens": 21612,
+    "cached_tokens": 0,
+    "cache_write_tokens": 21360,
+    "output_tokens": 103,
+    "cost_usd": 0.0027467,
+    "setup": "defended"
+  },
+  {
+    "document": "data/practice_docs/p02_elmcity_quote.html",
+    "time": "2026-11-07T15:55:02.920277+00:00",
+    "input_tokens": 21586,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 216,
+    "output_tokens": 110,
+    "cost_usd": 0.0012686899999999998,
+    "setup": "defended"
+  },
+  {
+    "document": "data/practice_docs/p06_qtextile_quote.pdf",
+    "time": "2026-11-07T15:55:02.930070+00:00",
+    "input_tokens": 21577,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 207,
+    "output_tokens": 104,
+    "cost_usd": 0.001264565,
+    "setup": "defended"
+  },
+  {
+    "document": "data/practice_docs/p08_chapelst_email.eml",
+    "time": "2026-11-07T15:55:02.936125+00:00",
+    "input_tokens": 21613,
+    "cached_tokens": 10605,
+    "cache_write_tokens": 197,
+    "output_tokens": 102,
+    "cost_usd": 0.001262775,
+    "setup": "defended"
+  },
+  {
+    "document": "data/practice_docs/p04_harborstitch_quote.html",
+    "time": "2026-11-07T15:55:02.940284+00:00",
+    "input_tokens": 21606,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 236,
+    "output_tokens": 103,
+    "cost_usd": 0.00126769,
+    "setup": "defended"
+  },
+  {
+    "document": "data/practice_docs/p03_ivyprint_catalog.html",
+    "time": "2026-11-07T15:55:03.004403+00:00",
+    "input_tokens": 21587,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 217,
+    "output_tokens": 105,
+    "cost_usd": 0.001266315,
+    "setup": "defended"
+  },
+  {
+    "document": "data/practice_docs/p12_bluehen_quote.pdf",
+    "time": "2026-11-07T15:55:03.414550+00:00",
+    "input_tokens": 21568,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 198,
+    "output_tokens": 119,
+    "cost_usd": 0.0012709400000000001,
+    "setup": "defended"
+  },
+  {
+    "document": "data/exam_docs/e04_catalog.html",
+    "time": "2026-11-07T15:55:03.428300+00:00",
+    "input_tokens": 21558,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 188,
+    "output_tokens": 110,
+    "cost_usd": 0.00126519,
+    "setup": "exam"
+  },
+  {
+    "document": "data/exam_docs/e02_quote.html",
+    "time": "2026-11-07T15:55:03.487310+00:00",
+    "input_tokens": 21559,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 189,
+    "output_tokens": 114,
+    "cost_usd": 0.001267315,
+    "setup": "exam"
+  },
+  {
+    "document": "data/exam_docs/e01_quote.html",
+    "time": "2026-11-07T15:55:03.487842+00:00",
+    "input_tokens": 21565,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 195,
+    "output_tokens": 113,
+    "cost_usd": 0.001267565,
+    "setup": "exam"
+  },
+  {
+    "document": "data/practice_docs/p11_yorkst_quote.html",
+    "time": "2026-11-07T15:55:03.489596+00:00",
+    "input_tokens": 21578,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 208,
+    "output_tokens": 101,
+    "cost_usd": 0.00126319,
+    "setup": "defended"
+  },
+  {
+    "document": "data/practice_docs/p10_eastrock_email.eml",
+    "time": "2026-11-07T15:55:03.488934+00:00",
+    "input_tokens": 21622,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 252,
+    "output_tokens": 108,
+    "cost_usd": 0.00127219,
+    "setup": "defended"
+  },
+  {
+    "document": "data/exam_docs/e03_quote.html",
+    "time": "2026-11-07T15:55:03.903684+00:00",
+    "input_tokens": 21568,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 198,
+    "output_tokens": 92,
+    "cost_usd": 0.00125744,
+    "setup": "exam"
+  },
+  {
+    "document": "data/exam_docs/e05_quote.pdf",
+    "time": "2026-11-07T15:55:03.939701+00:00",
+    "input_tokens": 21568,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 198,
+    "output_tokens": 106,
+    "cost_usd": 0.0012644400000000001,
+    "setup": "exam"
+  },
+  {
+    "document": "data/practice_docs/p09_westville_email.eml",
+    "time": "2026-11-07T15:55:03.980780+00:00",
+    "input_tokens": 21609,
+    "cached_tokens": 10605,
+    "cache_write_tokens": 193,
+    "output_tokens": 103,
+    "cost_usd": 0.001262775,
+    "setup": "defended"
+  },
+  {
+    "document": "data/exam_docs/e06_quote.pdf",
+    "time": "2026-11-07T15:55:04.013841+00:00",
+    "input_tokens": 21569,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 199,
+    "output_tokens": 111,
+    "cost_usd": 0.001267065,
+    "setup": "exam"
+  },
+  {
+    "document": "data/exam_docs/e08_email.eml",
+    "time": "2026-11-07T15:55:04.263277+00:00",
+    "input_tokens": 21589,
+    "cached_tokens": 10602,
+    "cache_write_tokens": 176,
+    "output_tokens": 115,
+    "cost_usd": 0.0012666200000000002,
+    "setup": "exam"
+  },
+  {
+    "document": "data/exam_docs/e09_email.eml",
+    "time": "2026-11-07T15:55:04.262367+00:00",
+    "input_tokens": 21629,
+    "cached_tokens": 10602,
+    "cache_write_tokens": 216,
+    "output_tokens": 105,
+    "cost_usd": 0.00126662,
+    "setup": "exam"
+  },
+  {
+    "document": "data/exam_docs/e10_email.eml",
+    "time": "2026-11-07T15:55:04.265556+00:00",
+    "input_tokens": 21588,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 218,
+    "output_tokens": 119,
+    "cost_usd": 0.00127344,
+    "setup": "exam"
+  },
+  {
+    "document": "data/exam_docs/e07_quote.pdf",
+    "time": "2026-11-07T15:55:04.265831+00:00",
+    "input_tokens": 21587,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 217,
+    "output_tokens": 123,
+    "cost_usd": 0.001275315,
+    "setup": "exam"
+  },
+  {
+    "document": "data/my_attacks/a02_template_reinstated.html",
+    "time": "2026-11-07T15:55:04.786885+00:00",
+    "input_tokens": 21572,
+    "cached_tokens": 10604,
+    "cache_write_tokens": 157,
+    "output_tokens": 106,
+    "cost_usd": 0.001259765,
+    "setup": "undefended"
+  },
+  {
+    "document": "data/my_attacks/a02_template_reinstated.html",
+    "time": "2026-11-07T15:55:04.884447+00:00",
+    "input_tokens": 21572,
+    "cached_tokens": 10604,
+    "cache_write_tokens": 157,
+    "output_tokens": 106,
+    "cost_usd": 0.001259765,
+    "setup": "defended"
+  },
+  {
+    "document": "data/my_attacks/a01_jsonld_deposit.html",
+    "time": "2026-11-07T15:55:04.985259+00:00",
+    "input_tokens": 21577,
+    "cached_tokens": 10604,
+    "cache_write_tokens": 162,
+    "output_tokens": 105,
+    "cost_usd": 0.00125989,
+    "setup": "undefended"
+  },
+  {
+    "document": "data/my_attacks/a01_jsonld_deposit.html",
+    "time": "2026-11-07T15:55:04.987161+00:00",
+    "input_tokens": 21577,
+    "cached_tokens": 10604,
+    "cache_write_tokens": 162,
+    "output_tokens": 105,
+    "cost_usd": 0.00125989,
+    "setup": "defended"
+  },
+  {
+    "document": "data/practice_docs/p01_bluehen_quote.html",
+    "time": "2026-11-07T16:04:36.405287+00:00",
+    "input_tokens": 22051,
+    "cached_tokens": 0,
+    "cache_write_tokens": 21799,
+    "output_tokens": 103,
+    "cost_usd": 0.0028015749999999997,
+    "setup": "without_cache"
+  },
+  {
+    "document": "data/practice_docs/p06_qtextile_quote.pdf",
+    "time": "2026-11-07T16:04:40.381135+00:00",
+    "input_tokens": 21780,
+    "cached_tokens": 0,
+    "cache_write_tokens": 21528,
+    "output_tokens": 109,
+    "cost_usd": 0.0027706999999999996,
+    "setup": "without_cache"
+  },
+  {
+    "document": "data/practice_docs/p05_maplemills_quote.pdf",
+    "time": "2026-11-07T16:04:40.725592+00:00",
+    "input_tokens": 21732,
+    "cached_tokens": 0,
+    "cache_write_tokens": 21480,
+    "output_tokens": 123,
+    "cost_usd": 0.0027716999999999998,
+    "setup": "without_cache"
+  },
+  {
+    "document": "data/practice_docs/p03_ivyprint_catalog.html",
+    "time": "2026-11-07T16:04:40.725696+00:00",
+    "input_tokens": 22058,
+    "cached_tokens": 0,
+    "cache_write_tokens": 21806,
+    "output_tokens": 103,
+    "cost_usd": 0.0028024499999999997,
+    "setup": "without_cache"
+  },
+  {
+    "document": "data/practice_docs/p02_elmcity_quote.html",
+    "time": "2026-11-07T16:04:40.726271+00:00",
+    "input_tokens": 22070,
+    "cached_tokens": 0,
+    "cache_write_tokens": 21818,
+    "output_tokens": 118,
+    "cost_usd": 0.00281145,
+    "setup": "without_cache"
+  },
+  {
+    "document": "data/practice_docs/p07_longwharf_quote.pdf",
+    "time": "2026-11-07T16:04:41.243454+00:00",
+    "input_tokens": 21751,
+    "cached_tokens": 0,
+    "cache_write_tokens": 21499,
+    "output_tokens": 113,
+    "cost_usd": 0.002769075,
+    "setup": "without_cache"
+  },
+  {
+    "document": "data/practice_docs/p09_westville_email.eml",
+    "time": "2026-11-07T16:04:41.243291+00:00",
+    "input_tokens": 21757,
+    "cached_tokens": 0,
+    "cache_write_tokens": 21505,
+    "output_tokens": 116,
+    "cost_usd": 0.002771325,
+    "setup": "without_cache"
+  },
+  {
+    "document": "data/practice_docs/p04_harborstitch_quote.html",
+    "time": "2026-11-07T16:04:41.244020+00:00",
+    "input_tokens": 22083,
+    "cached_tokens": 0,
+    "cache_write_tokens": 21831,
+    "output_tokens": 132,
+    "cost_usd": 0.002820075,
+    "setup": "without_cache"
+  },
+  {
+    "document": "data/practice_docs/p08_chapelst_email.eml",
+    "time": "2026-11-07T16:04:42.424635+00:00",
+    "input_tokens": 21760,
+    "cached_tokens": 0,
+    "cache_write_tokens": 21508,
+    "output_tokens": 119,
+    "cost_usd": 0.0027732,
+    "setup": "without_cache"
+  },
+  {
+    "document": "data/practice_docs/p12_bluehen_quote.pdf",
+    "time": "2026-11-07T16:04:44.392741+00:00",
+    "input_tokens": 21750,
+    "cached_tokens": 0,
+    "cache_write_tokens": 21498,
+    "output_tokens": 108,
+    "cost_usd": 0.0027664499999999997,
+    "setup": "without_cache"
+  },
+  {
+    "document": "data/practice_docs/p10_eastrock_email.eml",
+    "time": "2026-11-07T16:04:44.394794+00:00",
+    "input_tokens": 21778,
+    "cached_tokens": 0,
+    "cache_write_tokens": 21526,
+    "output_tokens": 115,
+    "cost_usd": 0.00277345,
+    "setup": "without_cache"
+  },
+  {
+    "document": "data/practice_docs/p11_yorkst_quote.html",
+    "time": "2026-11-07T16:04:44.444477+00:00",
+    "input_tokens": 22042,
+    "cached_tokens": 0,
+    "cache_write_tokens": 21790,
+    "output_tokens": 126,
+    "cost_usd": 0.00281195,
+    "setup": "without_cache"
+  },
+  {
+    "document": "data/practice_docs/p02_elmcity_quote.html",
+    "time": "2026-11-07T16:04:45.278141+00:00",
+    "input_tokens": 21586,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 216,
+    "output_tokens": 110,
+    "cost_usd": 0.0012686899999999998,
+    "setup": "defended"
+  },
+  {
+    "document": "data/practice_docs/p07_longwharf_quote.pdf",
+    "time": "2026-11-07T16:04:45.280331+00:00",
+    "input_tokens": 21606,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 236,
+    "output_tokens": 110,
+    "cost_usd": 0.00127119,
+    "setup": "defended"
+  },
+  {
+    "document": "data/practice_docs/p03_ivyprint_catalog.html",
+    "time": "2026-11-07T16:04:45.281878+00:00",
+    "input_tokens": 21587,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 217,
+    "output_tokens": 105,
+    "cost_usd": 0.001266315,
+    "setup": "defended"
+  },
+  {
+    "document": "data/practice_docs/p08_chapelst_email.eml",
+    "time": "2026-11-07T16:04:45.281480+00:00",
+    "input_tokens": 21613,
+    "cached_tokens": 10605,
+    "cache_write_tokens": 197,
+    "output_tokens": 102,
+    "cost_usd": 0.001262775,
+    "setup": "defended"
+  },
+  {
+    "document": "data/practice_docs/p06_qtextile_quote.pdf",
+    "time": "2026-11-07T16:04:45.282786+00:00",
+    "input_tokens": 21577,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 207,
+    "output_tokens": 104,
+    "cost_usd": 0.001264565,
+    "setup": "defended"
+  },
+  {
+    "document": "data/practice_docs/p04_harborstitch_quote.html",
+    "time": "2026-11-07T16:04:45.283175+00:00",
+    "input_tokens": 21606,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 236,
+    "output_tokens": 103,
+    "cost_usd": 0.00126769,
+    "setup": "defended"
+  },
+  {
+    "document": "data/practice_docs/p01_bluehen_quote.html",
+    "time": "2026-11-07T16:04:45.284037+00:00",
+    "input_tokens": 21612,
+    "cached_tokens": 0,
+    "cache_write_tokens": 21360,
+    "output_tokens": 103,
+    "cost_usd": 0.0027467,
+    "setup": "defended"
+  },
+  {
+    "document": "data/practice_docs/p05_maplemills_quote.pdf",
+    "time": "2026-11-07T16:04:45.284250+00:00",
+    "input_tokens": 21587,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 217,
+    "output_tokens": 102,
+    "cost_usd": 0.001264815,
+    "setup": "defended"
+  },
+  {
+    "document": "data/exam_docs/e03_quote.html",
+    "time": "2026-11-07T16:04:45.779316+00:00",
+    "input_tokens": 21568,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 198,
+    "output_tokens": 92,
+    "cost_usd": 0.00125744,
+    "setup": "exam"
+  },
+  {
+    "document": "data/practice_docs/p12_bluehen_quote.pdf",
+    "time": "2026-11-07T16:04:45.780460+00:00",
+    "input_tokens": 21568,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 198,
+    "output_tokens": 119,
+    "cost_usd": 0.0012709400000000001,
+    "setup": "defended"
+  },
+  {
+    "document": "data/exam_docs/e04_catalog.html",
+    "time": "2026-11-07T16:04:45.778945+00:00",
+    "input_tokens": 21558,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 188,
+    "output_tokens": 110,
+    "cost_usd": 0.00126519,
+    "setup": "exam"
+  },
+  {
+    "document": "data/practice_docs/p10_eastrock_email.eml",
+    "time": "2026-11-07T16:04:45.782288+00:00",
+    "input_tokens": 21622,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 252,
+    "output_tokens": 108,
+    "cost_usd": 0.00127219,
+    "setup": "defended"
+  },
+  {
+    "document": "data/practice_docs/p09_westville_email.eml",
+    "time": "2026-11-07T16:04:45.784249+00:00",
+    "input_tokens": 21609,
+    "cached_tokens": 10605,
+    "cache_write_tokens": 193,
+    "output_tokens": 103,
+    "cost_usd": 0.001262775,
+    "setup": "defended"
+  },
+  {
+    "document": "data/practice_docs/p11_yorkst_quote.html",
+    "time": "2026-11-07T16:04:45.814448+00:00",
+    "input_tokens": 21578,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 208,
+    "output_tokens": 101,
+    "cost_usd": 0.00126319,
+    "setup": "defended"
+  },
+  {
+    "document": "data/exam_docs/e02_quote.html",
+    "time": "2026-11-07T16:04:45.903313+00:00",
+    "input_tokens": 21559,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 189,
+    "output_tokens": 114,
+    "cost_usd": 0.001267315,
+    "setup": "exam"
+  },
+  {
+    "document": "data/exam_docs/e01_quote.html",
+    "time": "2026-11-07T16:04:45.937118+00:00",
+    "input_tokens": 21565,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 195,
+    "output_tokens": 113,
+    "cost_usd": 0.001267565,
+    "setup": "exam"
+  },
+  {
+    "document": "data/exam_docs/e05_quote.pdf",
+    "time": "2026-11-07T16:04:46.297598+00:00",
+    "input_tokens": 21568,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 198,
+    "output_tokens": 106,
+    "cost_usd": 0.0012644400000000001,
+    "setup": "exam"
+  },
+  {
+    "document": "data/exam_docs/e10_email.eml",
+    "time": "2026-11-07T16:04:46.300350+00:00",
+    "input_tokens": 21588,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 218,
+    "output_tokens": 119,
+    "cost_usd": 0.00127344,
+    "setup": "exam"
+  },
+  {
+    "document": "data/exam_docs/e08_email.eml",
+    "time": "2026-11-07T16:04:46.301264+00:00",
+    "input_tokens": 21589,
+    "cached_tokens": 10602,
+    "cache_write_tokens": 176,
+    "output_tokens": 115,
+    "cost_usd": 0.0012666200000000002,
+    "setup": "exam"
+  },
+  {
+    "document": "data/exam_docs/e06_quote.pdf",
+    "time": "2026-11-07T16:04:46.354323+00:00",
+    "input_tokens": 21569,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 199,
+    "output_tokens": 111,
+    "cost_usd": 0.001267065,
+    "setup": "exam"
+  },
+  {
+    "document": "data/exam_docs/e07_quote.pdf",
+    "time": "2026-11-07T16:04:46.453272+00:00",
+    "input_tokens": 21587,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 217,
+    "output_tokens": 123,
+    "cost_usd": 0.001275315,
+    "setup": "exam"
+  },
+  {
+    "document": "data/exam_docs/e09_email.eml",
+    "time": "2026-11-07T16:04:46.503976+00:00",
+    "input_tokens": 21629,
+    "cached_tokens": 10602,
+    "cache_write_tokens": 216,
+    "output_tokens": 105,
+    "cost_usd": 0.00126662,
+    "setup": "exam"
+  },
+  {
+    "document": "data/my_attacks/a02_template_reinstated.html",
+    "time": "2026-11-07T16:04:47.023945+00:00",
+    "input_tokens": 21572,
+    "cached_tokens": 10604,
+    "cache_write_tokens": 157,
+    "output_tokens": 106,
+    "cost_usd": 0.001259765,
+    "setup": "undefended"
+  },
+  {
+    "document": "data/my_attacks/a02_template_reinstated.html",
+    "time": "2026-11-07T16:04:47.024572+00:00",
+    "input_tokens": 21572,
+    "cached_tokens": 10604,
+    "cache_write_tokens": 157,
+    "output_tokens": 106,
+    "cost_usd": 0.001259765,
+    "setup": "defended"
+  },
+  {
+    "document": "data/my_attacks/a01_jsonld_deposit.html",
+    "time": "2026-11-07T16:04:47.041218+00:00",
+    "input_tokens": 21577,
+    "cached_tokens": 10604,
+    "cache_write_tokens": 162,
+    "output_tokens": 105,
+    "cost_usd": 0.00125989,
+    "setup": "undefended"
+  },
+  {
+    "document": "data/my_attacks/a01_jsonld_deposit.html",
+    "time": "2026-11-07T16:04:47.042415+00:00",
+    "input_tokens": 21577,
+    "cached_tokens": 10604,
+    "cache_write_tokens": 162,
+    "output_tokens": 105,
+    "cost_usd": 0.00125989,
+    "setup": "defended"
+  },
+  {
+    "document": "data/practice_docs/p01_bluehen_quote.html",
+    "time": "2026-11-07T16:05:15.567604+00:00",
+    "input_tokens": 22056,
+    "cached_tokens": 0,
+    "cache_write_tokens": 21804,
+    "output_tokens": 123,
+    "cost_usd": 0.0028122,
+    "setup": "without_cache"
+  },
+  {
+    "document": "data/practice_docs/p04_harborstitch_quote.html",
+    "time": "2026-11-07T16:05:19.121154+00:00",
+    "input_tokens": 22090,
+    "cached_tokens": 0,
+    "cache_write_tokens": 21838,
+    "output_tokens": 113,
+    "cost_usd": 0.00281145,
+    "setup": "without_cache"
+  },
+  {
+    "document": "data/practice_docs/p02_elmcity_quote.html",
+    "time": "2026-11-07T16:05:19.397661+00:00",
+    "input_tokens": 22070,
+    "cached_tokens": 0,
+    "cache_write_tokens": 21818,
+    "output_tokens": 116,
+    "cost_usd": 0.00281045,
+    "setup": "without_cache"
+  },
+  {
+    "document": "data/practice_docs/p05_maplemills_quote.pdf",
+    "time": "2026-11-07T16:05:19.417240+00:00",
+    "input_tokens": 21730,
+    "cached_tokens": 0,
+    "cache_write_tokens": 21478,
+    "output_tokens": 106,
+    "cost_usd": 0.00276295,
+    "setup": "without_cache"
+  },
+  {
+    "document": "data/practice_docs/p03_ivyprint_catalog.html",
+    "time": "2026-11-07T16:05:19.851959+00:00",
+    "input_tokens": 22067,
+    "cached_tokens": 0,
+    "cache_write_tokens": 21815,
+    "output_tokens": 103,
+    "cost_usd": 0.002803575,
+    "setup": "without_cache"
+  },
+  {
+    "document": "data/practice_docs/p07_longwharf_quote.pdf",
+    "time": "2026-11-07T16:05:19.852354+00:00",
+    "input_tokens": 21754,
+    "cached_tokens": 0,
+    "cache_write_tokens": 21502,
+    "output_tokens": 128,
+    "cost_usd": 0.00277695,
+    "setup": "without_cache"
+  },
+  {
+    "document": "data/practice_docs/p09_westville_email.eml",
+    "time": "2026-11-07T16:05:19.852894+00:00",
+    "input_tokens": 21757,
+    "cached_tokens": 0,
+    "cache_write_tokens": 21505,
+    "output_tokens": 117,
+    "cost_usd": 0.002771825,
+    "setup": "without_cache"
+  },
+  {
+    "document": "data/practice_docs/p08_chapelst_email.eml",
+    "time": "2026-11-07T16:05:19.853127+00:00",
+    "input_tokens": 21748,
+    "cached_tokens": 0,
+    "cache_write_tokens": 21496,
+    "output_tokens": 115,
+    "cost_usd": 0.0027697,
+    "setup": "without_cache"
+  },
+  {
+    "document": "data/practice_docs/p06_qtextile_quote.pdf",
+    "time": "2026-11-07T16:05:20.893868+00:00",
+    "input_tokens": 21780,
+    "cached_tokens": 0,
+    "cache_write_tokens": 21528,
+    "output_tokens": 108,
+    "cost_usd": 0.0027701999999999996,
+    "setup": "without_cache"
+  },
+  {
+    "document": "data/practice_docs/p10_eastrock_email.eml",
+    "time": "2026-11-07T16:05:22.790664+00:00",
+    "input_tokens": 21776,
+    "cached_tokens": 0,
+    "cache_write_tokens": 21524,
+    "output_tokens": 112,
+    "cost_usd": 0.0027717,
+    "setup": "without_cache"
+  },
+  {
+    "document": "data/practice_docs/p11_yorkst_quote.html",
+    "time": "2026-11-07T16:05:24.088901+00:00",
+    "input_tokens": 22046,
+    "cached_tokens": 0,
+    "cache_write_tokens": 21794,
+    "output_tokens": 113,
+    "cost_usd": 0.00280595,
+    "setup": "without_cache"
+  },
+  {
+    "document": "data/practice_docs/p12_bluehen_quote.pdf",
+    "time": "2026-11-07T16:05:25.223573+00:00",
+    "input_tokens": 21748,
+    "cached_tokens": 0,
+    "cache_write_tokens": 21496,
+    "output_tokens": 105,
+    "cost_usd": 0.0027647,
+    "setup": "without_cache"
+  },
+  {
+    "document": "data/practice_docs/p03_ivyprint_catalog.html",
+    "time": "2026-11-07T16:05:25.612271+00:00",
+    "input_tokens": 21587,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 217,
+    "output_tokens": 105,
+    "cost_usd": 0.001266315,
+    "setup": "defended"
+  },
+  {
+    "document": "data/practice_docs/p06_qtextile_quote.pdf",
+    "time": "2026-11-07T16:05:25.620793+00:00",
+    "input_tokens": 21577,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 207,
+    "output_tokens": 104,
+    "cost_usd": 0.001264565,
+    "setup": "defended"
+  },
+  {
+    "document": "data/practice_docs/p07_longwharf_quote.pdf",
+    "time": "2026-11-07T16:05:25.629470+00:00",
+    "input_tokens": 21606,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 236,
+    "output_tokens": 110,
+    "cost_usd": 0.00127119,
+    "setup": "defended"
+  },
+  {
+    "document": "data/practice_docs/p05_maplemills_quote.pdf",
+    "time": "2026-11-07T16:05:25.649351+00:00",
+    "input_tokens": 21587,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 217,
+    "output_tokens": 102,
+    "cost_usd": 0.001264815,
+    "setup": "defended"
+  },
+  {
+    "document": "data/practice_docs/p02_elmcity_quote.html",
+    "time": "2026-11-07T16:05:25.656869+00:00",
+    "input_tokens": 21586,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 216,
+    "output_tokens": 110,
+    "cost_usd": 0.0012686899999999998,
+    "setup": "defended"
+  },
+  {
+    "document": "data/practice_docs/p08_chapelst_email.eml",
+    "time": "2026-11-07T16:05:25.716250+00:00",
+    "input_tokens": 21613,
+    "cached_tokens": 10605,
+    "cache_write_tokens": 197,
+    "output_tokens": 102,
+    "cost_usd": 0.001262775,
+    "setup": "defended"
+  },
+  {
+    "document": "data/practice_docs/p11_yorkst_quote.html",
+    "time": "2026-11-07T16:05:26.050138+00:00",
+    "input_tokens": 21578,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 208,
+    "output_tokens": 101,
+    "cost_usd": 0.00126319,
+    "setup": "defended"
+  },
+  {
+    "document": "data/exam_docs/e01_quote.html",
+    "time": "2026-11-07T16:05:26.085903+00:00",
+    "input_tokens": 21565,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 195,
+    "output_tokens": 113,
+    "cost_usd": 0.001267565,
+    "setup": "exam"
+  },
+  {
+    "document": "data/practice_docs/p12_bluehen_quote.pdf",
+    "time": "2026-11-07T16:05:26.088530+00:00",
+    "input_tokens": 21568,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 198,
+    "output_tokens": 119,
+    "cost_usd": 0.0012709400000000001,
+    "setup": "defended"
+  },
+  {
+    "document": "data/practice_docs/p10_eastrock_email.eml",
+    "time": "2026-11-07T16:05:26.095220+00:00",
+    "input_tokens": 21622,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 252,
+    "output_tokens": 108,
+    "cost_usd": 0.00127219,
+    "setup": "defended"
+  },
+  {
+    "document": "data/practice_docs/p09_westville_email.eml",
+    "time": "2026-11-07T16:05:26.100912+00:00",
+    "input_tokens": 21609,
+    "cached_tokens": 10605,
+    "cache_write_tokens": 193,
+    "output_tokens": 103,
+    "cost_usd": 0.001262775,
+    "setup": "defended"
+  },
+  {
+    "document": "data/exam_docs/e02_quote.html",
+    "time": "2026-11-07T16:05:26.140900+00:00",
+    "input_tokens": 21559,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 189,
+    "output_tokens": 114,
+    "cost_usd": 0.001267315,
+    "setup": "exam"
+  },
+  {
+    "document": "data/exam_docs/e04_catalog.html",
+    "time": "2026-11-07T16:05:26.305197+00:00",
+    "input_tokens": 21558,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 188,
+    "output_tokens": 110,
+    "cost_usd": 0.00126519,
+    "setup": "exam"
+  },
+  {
+    "document": "data/exam_docs/e08_email.eml",
+    "time": "2026-11-07T16:05:26.466464+00:00",
+    "input_tokens": 21589,
+    "cached_tokens": 10602,
+    "cache_write_tokens": 176,
+    "output_tokens": 115,
+    "cost_usd": 0.0012666200000000002,
+    "setup": "exam"
+  },
+  {
+    "document": "data/practice_docs/p04_harborstitch_quote.html",
+    "time": "2026-11-07T16:05:26.466930+00:00",
+    "input_tokens": 21606,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 236,
+    "output_tokens": 103,
+    "cost_usd": 0.00126769,
+    "setup": "defended"
+  },
+  {
+    "document": "data/exam_docs/e06_quote.pdf",
+    "time": "2026-11-07T16:05:26.468868+00:00",
+    "input_tokens": 21569,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 199,
+    "output_tokens": 111,
+    "cost_usd": 0.001267065,
+    "setup": "exam"
+  },
+  {
+    "document": "data/exam_docs/e05_quote.pdf",
+    "time": "2026-11-07T16:05:26.469006+00:00",
+    "input_tokens": 21568,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 198,
+    "output_tokens": 106,
+    "cost_usd": 0.0012644400000000001,
+    "setup": "exam"
+  },
+  {
+    "document": "data/exam_docs/e03_quote.html",
+    "time": "2026-11-07T16:05:26.469460+00:00",
+    "input_tokens": 21568,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 198,
+    "output_tokens": 92,
+    "cost_usd": 0.00125744,
+    "setup": "exam"
+  },
+  {
+    "document": "data/exam_docs/e07_quote.pdf",
+    "time": "2026-11-07T16:05:26.603352+00:00",
+    "input_tokens": 21587,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 217,
+    "output_tokens": 123,
+    "cost_usd": 0.001275315,
+    "setup": "exam"
+  },
+  {
+    "document": "data/exam_docs/e09_email.eml",
+    "time": "2026-11-07T16:05:26.655454+00:00",
+    "input_tokens": 21629,
+    "cached_tokens": 10602,
+    "cache_write_tokens": 216,
+    "output_tokens": 105,
+    "cost_usd": 0.00126662,
+    "setup": "exam"
+  },
+  {
+    "document": "data/practice_docs/p01_bluehen_quote.html",
+    "time": "2026-11-07T16:05:26.704631+00:00",
+    "input_tokens": 21612,
+    "cached_tokens": 0,
+    "cache_write_tokens": 21360,
+    "output_tokens": 103,
+    "cost_usd": 0.0027467,
+    "setup": "defended"
+  },
+  {
+    "document": "data/exam_docs/e10_email.eml",
+    "time": "2026-11-07T16:05:26.723224+00:00",
+    "input_tokens": 21588,
+    "cached_tokens": 10559,
+    "cache_write_tokens": 218,
+    "output_tokens": 119,
+    "cost_usd": 0.00127344,
+    "setup": "exam"
+  },
+  {
+    "document": "data/my_attacks/a02_template_reinstated.html",
+    "time": "2026-11-07T16:05:27.146310+00:00",
+    "input_tokens": 21572,
+    "cached_tokens": 10604,
+    "cache_write_tokens": 157,
+    "output_tokens": 106,
+    "cost_usd": 0.001259765,
+    "setup": "defended"
+  },
+  {
+    "document": "data/my_attacks/a01_jsonld_deposit.html",
+    "time": "2026-11-07T16:05:27.152508+00:00",
+    "input_tokens": 21577,
+    "cached_tokens": 10604,
+    "cache_write_tokens": 162,
+    "output_tokens": 105,
+    "cost_usd": 0.00125989,
+    "setup": "defended"
+  },
+  {
+    "document": "data/my_attacks/a01_jsonld_deposit.html",
+    "time": "2026-11-07T16:05:27.190121+00:00",
+    "input_tokens": 21577,
+    "cached_tokens": 10604,
+    "cache_write_tokens": 162,
+    "output_tokens": 105,
+    "cost_usd": 0.00125989,
+    "setup": "undefended"
+  },
+  {
+    "document": "data/my_attacks/a02_template_reinstated.html",
+    "time": "2026-11-07T16:05:27.207833+00:00",
+    "input_tokens": 21572,
+    "cached_tokens": 10604,
+    "cache_write_tokens": 157,
+    "output_tokens": 106,
+    "cost_usd": 0.001259765,
+    "setup": "undefended"
+  },
+  {
+    "document": "data/my_attacks/a02_noscript_price.html",
+    "time": "2026-11-07T16:07:05.795379+00:00",
+    "input_tokens": 21724,
+    "cached_tokens": 0,
+    "cache_write_tokens": 21472,
+    "output_tokens": 108,
+    "cost_usd": 0.0027632,
+    "setup": "defended"
+  },
+  {
+    "document": "data/my_attacks/a01_hidden_price.html",
+    "time": "2026-11-07T16:07:06.389224+00:00",
+    "input_tokens": 21723,
+    "cached_tokens": 0,
+    "cache_write_tokens": 21471,
+    "output_tokens": 100,
+    "cost_usd": 0.002759075,
+    "setup": "defended"
+  },
+  {
+    "document": "data/my_attacks/a02_noscript_price.html",
+    "time": "2026-11-07T16:07:06.601776+00:00",
+    "input_tokens": 21717,
+    "cached_tokens": 0,
+    "cache_write_tokens": 21465,
+    "output_tokens": 110,
+    "cost_usd": 0.002763325,
+    "setup": "undefended"
+  },
+  {
+    "document": "data/my_attacks/a01_hidden_price.html",
+    "time": "2026-11-07T16:07:06.732351+00:00",
+    "input_tokens": 21721,
+    "cached_tokens": 0,
+    "cache_write_tokens": 21469,
+    "output_tokens": 113,
+    "cost_usd": 0.002765325,
+    "setup": "undefended"
+  },
+  {
+    "document": "data/my_attacks/a02_offscreen_price.html",
+    "time": "2026-11-07T16:07:29.314158+00:00",
+    "input_tokens": 21724,
+    "cached_tokens": 0,
+    "cache_write_tokens": 21472,
+    "output_tokens": 106,
+    "cost_usd": 0.0027622000000000002,
+    "setup": "defended"
+  },
+  {
+    "document": "data/my_attacks/a02_offscreen_price.html",
+    "time": "2026-11-07T16:07:30.227764+00:00",
+    "input_tokens": 21718,
+    "cached_tokens": 0,
+    "cache_write_tokens": 21466,
+    "output_tokens": 116,
+    "cost_usd": 0.0027664499999999997,
+    "setup": "undefended"
   }
 ]

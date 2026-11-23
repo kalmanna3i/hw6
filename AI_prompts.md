@@ -14,7 +14,8 @@
 
 ## Problem 4: With and without cached tokens
 **Prompt:** Run all 12 practice docs with and without cache; save cache_test.json/md.
-**Done.**
+**Follow-up:** The no-cache runs still showed about 10,600 cached tokens. Put the cache-bust id at the front of the prompt, not the end, and rerun that setup.
+The first bust was appended after the handbook, so the provider still reused the prefix.
 
 ## Problem 5: Attack your own agent
 **Prompt:** Undefended run on 12 docs vs practice_key; write attack_results.
@@ -38,4 +39,5 @@
 
 ## Problem 10: Push to GitHub and submit the URL
 **Prompt:** Public repo with full data/ and outputs; submit URL on Canvas.
-**In progress.**
+**Follow-up:** The folder was only on my Mac. Push `main` to the public GitHub repo and leave `.env` out.
+The first pass never left this computer, so there was no URL to submit.
